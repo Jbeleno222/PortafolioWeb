@@ -18,6 +18,6 @@ $asunto = 'Este mail fue enviado desde: Portafolio Web';
 
 mail($destinatario, $asunto, utf8_decode($mensaje), $header);
 
-header('Location:html/exito.html');
+header('Location:../html/exito.html');
 
 ?>
